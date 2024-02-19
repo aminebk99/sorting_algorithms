@@ -31,7 +31,7 @@ void quick_sort(int *array, size_t size);
 void quicksort(int *array, int low, int heigh, size_t size);
 int partition(int *array, int low, int high, size_t size);
 void swap(int *array, size_t a, size_t b);
-
+void shell_sort(int *array, size_t size);
 /*Cocktail shaker sort functions*/
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t *a, listint_t *b);
